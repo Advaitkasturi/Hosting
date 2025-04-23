@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Registration Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1>GuruNanak Institutions</h1>
+    <p>Welcome to the official registration page for TechFest 2025!</p>
+  </header>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <a href="#">Home</a>
+    <a href="#">Activities</a>
+    <a href="#">Academics</a>
+   
+    <a href="#">Contact</a>
+  </nav>
+
+  <!-- Registration Form -->
+  <div class="container">
+    <h2 class="title">Student Registration Form</h2>
+
+    <form class="reg-form">
+      <label>First Name:</label>
+      <input type="text" name="firstname">
+
+      <label>Middle Name:</label>
+      <input type="text" name="middlename">
+
+      <label>Last Name:</label>
+      <input type="text" name="lastname">
+
+      <label>Course:</label>
+      <select name="course">
+        <option value="">Select</option>
+        <option value="B-Tech">B-Tech</option>
+        <option value="BSc">BSc</option>
+        <option value="BCom">BCom</option>
+        <option value="BBA">BBA</option>
+      </select>
+
+      <label>Gender:</label><br>
+      <input type="radio" name="gender" value="male"> Male
+      <input type="radio" name="gender" value="female"> Female
+      <input type="radio" name="gender" value="other"> Other<br><br>
+
+      <label>Phone:</label>
+      <input type="text" name="phone">
+
+      <label>Address:</label>
+      <textarea name="address" rows="4" cols="40"></textarea>
+
+      <label>Email:</label>
+      <input type="email" name="email">
+
+      <label>Password:</label>
+      <input type="password" name="password">
+
+      <label>Re-type Password:</label>
+      <input type="password" name="retype_password"><br>
+
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Guru Nanak Institutions |
+ Powered by GNI Tech Campus</p>
+  </footer>
+</body>
+</html>
